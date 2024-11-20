@@ -1,0 +1,132 @@
+body{
+    background-color: bisque;
+    justify-items: center;
+}
+
+.bodyContainer{
+    background-color: white;
+    width: 900px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.picturesBox{
+    width: 800px;
+    height: 380px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: block;
+    justify-self: center;
+}
+
+.picturesBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    margin-left: 50px;
+    font-family: 'Young Serif';
+    font-size: 45px;
+    font-weight: 400;
+}
+
+h2{
+    margin-left: 50px;
+    font-family: 'Young Serif';
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding-top: 20px;
+}
+p{
+    margin-left: 50px;
+    font-family: 'Young Serif';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.container{
+    width: 800px;
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 98%);
+    justify-self: center;
+}
+
+.container h3{
+    padding-top: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Young Serif';
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+ul{
+    margin-left: 30px;
+    
+}
+
+ul li{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Young Serif';
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+}
+
+ol li{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Young Serif';
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+ol{
+    font-size: 50px;
+}
+
+.nutrition-table {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    border-collapse: collapse;
+  }
+  
+  .nutrition-row {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+
+  .nutrition-row .label {
+    color: hsl(30, 10%, 34%);
+  }
+  
+
+  .nutrition-row .value {
+    font-weight: bold;
+    color: #b15635;
+  }
+
+  .attribution{
+    margin-top: 50px;
+  }
